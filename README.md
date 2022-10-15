@@ -1,8 +1,27 @@
 # Description
 
+# 
+
 # Installation
 
-## Getting Started with Create React App
+```
+  git clone https://github.com/ahlawataman/quiz_game
+  npm install
+  npm start
+```
+
+# Components
+
+### ErrorMessage.js
+> Catches JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI.
+
+### Header.js
+> Displays application title.
+
+### Question.js
+> Each question is displayed as a component.
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
