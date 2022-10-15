@@ -1,25 +1,53 @@
 # Description
 
-# 
+Developed a Quiz web app for evaluating the users in various skill sets. The app will ask the users a set of questions and will
+provide them a score at the end.
 
 # Installation
 
 ```
-  git clone https://github.com/ahlawataman/quiz_game
+  git clone https://github.com/_/quiz_game
   npm install
   npm start
 ```
 
 # Components
 
-### ErrorMessage.js
+### ErrorMessage 
+`src\components\ErrorMessage\ErrorMessage.js`
 > Catches JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI.
 
 ### Header.js
+`src\components\Header\Header.js`
 > Displays application title.
 
 ### Question.js
+`src\components\Question\Question.js`
 > Each question is displayed as a component.
+
+# API
+#### Trivia API - https://opentdb.com/api.php?amount=10&category=${9 to 32}&difficulty=${ easy or medium or hard }&type=multiple
+#### API Doc - https://opentdb.com/api_config.php
+
+
+# Dependencies
+
+```
+  "@emotion/react": "^11.10.4",
+  "@emotion/styled": "^11.10.4",
+  "@mui/icons-material": "^5.10.9",
+  "@mui/material": "^5.10.9",
+  "@mui/x-data-grid": "^5.17.7",
+  "@testing-library/jest-dom": "^5.16.5",
+  "@testing-library/react": "^13.4.0",
+  "@testing-library/user-event": "^13.5.0",
+  "axios": "^1.1.2",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-router-dom": "^6.4.2",
+  "react-scripts": "5.0.1",
+  "web-vitals": "^2.1.4"
+```
 
 # Getting Started with Create React App
 
